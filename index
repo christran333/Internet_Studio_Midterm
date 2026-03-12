@@ -1,1 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Step 1: Title tag -->
+    <title>Christopher Tran Resume</title>
 
+    <!-- Step 7: Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Step 9: Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Step 8: Styles -->
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 40px 0;
+        }
+
+        h1, h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            color: #1a1a2e;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            border-bottom: 2px solid #1a1a2e;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #16213e;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .job-title {
+            font-weight: 700;
+        }
+
+        .job-details {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        img {
+            max-width: 150px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Step 9: Bootstrap container wrapper -->
+    <div class="container">
+
+        <!-- Step 12 Bonus: Two-column grid -->
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+
+                <!-- Step 11 Bonus: Image -->
+                <img src="https://placehold.co/150x150?text=CT" alt="Christopher Tran">
+
+                <!-- Step 2: First-level heading -->
+                <h1>Christopher Tran</h1>
+
+                <!-- Step 3: Paragraph about myself -->
+                <p>I am a product designer and computer science student at UT Dallas. I enjoy working on early-stage products and creating designs that are both functional and user-centered.</p>
+
+                <!-- Contact info with step 6 links -->
+                <p class="contact-info">
+                    <a href="mailto:christophertran2005@gmail.com">christophertran2005@gmail.com</a><br>
+                    682-478-7669<br>
+                    <a href="https://christophertran.xyz" target="_blank">christophertran.xyz</a><br>
+                    Dallas, TX
+                </p>
+
+                <!-- Step 4 & 5: Skills section -->
+                <h2>Skills</h2>
+                <ul>
+                    <li>Figma</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe After Effects</li>
+                    <li>Framer</li>
+                    <li>FigJam</li>
+                    <li>Usability Testing</li>
+                    <li>Interaction Design</li>
+                    <li>Design Systems</li>
+                    <li>Rapid Prototyping</li>
+                </ul>
+
+                <!-- Awards section -->
+                <h2>Awards</h2>
+                <ul>
+                    <li>Capital One Design &amp; Research Scholar</li>
+                    <li>Dean's List</li>
+                    <li>All-American Collegiate Powerlifter</li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <!-- Step 4 & 5: Education section -->
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <span class="job-title">University of Texas at Dallas</span><br>
+                        <span class="job-details">B.A. in Arts, Technology, and Emerging Communications &mdash; GPA: 3.75 | Expected May 2027</span><br>
+                        Minor in Computer Science, Applied Experience Design &amp; Research
+                    </li>
+                </ul>
+
+                <!-- Experience section -->
+                <h2>Experience</h2>
+                <ul>
+                    <li>
+                        <span class="job-title">Product Design Intern &mdash; Backtrack</span><br>
+                        <span class="job-details">Kissimmee, FL | Aug 2025 &ndash; Jan 2026</span><br>
+                        Redesigned information architecture and navigation through usability testing. Designed conversational UX flows for Ask Backtrack AI.
+                    </li>
+                    <li>
+                        <span class="job-title">Designer &mdash; UT Dallas</span><br>
+                        <span class="job-details">Richardson, TX | Jun 2025 &ndash; Aug 2025</span><br>
+                        Increased event attendance by redesigning campus program website and developing reusable marketing templates.
+                    </li>
+                    <li>
+                        <span class="job-title">Product Design Intern &mdash; Francois Labs</span><br>
+                        <span class="job-details">Austin, TX | Aug 2024 &ndash; Aug 2025</span><br>
+                        Worked on products in financial services, AI learning, and healthcare AI. Built scalable design systems and redesigned dashboards.
+                    </li>
+                </ul>
+
+                <!-- Projects section -->
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <span class="job-title">MeteorMate &mdash; ACM at UTD</span><br>
+                        <span class="job-details">Jun 2025 &ndash; Present</span><br>
+                        Leading product design of a roommate-matching platform for 20,000+ students. Designed onboarding, matching logic UX, and messaging flows.
+                    </li>
+                </ul>
+
+                <!-- Involvement section -->
+                <h2>Involvement</h2>
+                <ul>
+                    <li><span class="job-title">ACM at UTD</span> &mdash; Product Designer &amp; Development Officer</li>
+                    <li><span class="job-title">UX Club at UTD</span> &mdash; Designer Officer</li>
+                    <li><span class="job-title">UTD Powerlifting Club</span> &mdash; Secretary, Designer, &amp; All-American Athlete</li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
